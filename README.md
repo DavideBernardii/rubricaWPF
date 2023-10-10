@@ -1,9 +1,8 @@
 # rubricaWPF
 
 ### All'inizio si trovano 3 attributi privati chiamati: "numero", nome "nome", "cognome". Poi incapsuliamo facendo tasto destro sui 3 attributi.
-'''c#
-{
-  internal class Contatto
+
+  
     {
         private int numero;
         private string nome;
@@ -15,7 +14,6 @@
     }
 
 ### Adesso si crea una istanza in cui testiamo la nostra classe
-'''c#
 
         public MainWindow()
         {
