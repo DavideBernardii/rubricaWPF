@@ -55,6 +55,7 @@
 
 ##Contatto.cs
 ```c#
+
 internal class Contatto
     {
         private int _numero;
