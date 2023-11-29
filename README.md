@@ -1,6 +1,6 @@
 # rubricaWPF
 
-##MainWindow.xaml.cs
+## MainWindow.xaml.cs
 ```c#
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -53,7 +53,7 @@
         }
     }
 ```
-##Contatto.cs
+## Contatto.cs
 ```c#
 
 internal class Contatto
