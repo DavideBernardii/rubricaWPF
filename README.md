@@ -43,15 +43,22 @@
         private void dgdati_LoadingRow(object sender, DataGridRowEventArgs e)
         {
             Contatto c = e.Row.Item as Contatto;
-            if (c != null) {
-            if(c.Numero == 0)
+            if (c != null)
+            {
+                if (c.Numero == 0)
                 {
                     e.Row.Background = Brushes.Red;
                     e.Row.Foreground = Brushes.White;
                 }
-                    }
+
+                if (c.Telefono != null && c.Telefono.StartsWith("3"))
+                {
+                    e.Row.Background = Brushes.Yellow;
+                }
+            }
         }
     }
+}
 ```
 ## Contatto.cs
 ```c#
